@@ -1,5 +1,5 @@
 import React from 'react';
-import './WeatherBox.css';
+import './WBox.css';
 
 export default class WeatherBox extends React.Component {
   // returns weekday to a given Date value

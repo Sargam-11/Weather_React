@@ -1,9 +1,9 @@
 import React from 'react';
-import './MainWeatherWindow.css';
+import './MainWindow.css';
 
 export default class MainWeatherWindow extends React.Component {
   render(props) {
-    const Title = this.props.city ? null : <h1 className='title'>Weather Forecast</h1>;
+    const Title = this.props.city ? null : <h1 className='title'>Weather App</h1>;
 
     return (
       <div className='main'>
